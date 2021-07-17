@@ -1,0 +1,16 @@
+
+<h1>Message Borad HomePage</h1>
+<ul>
+    {% for post in all_posts_list %}
+    <li>
+        {{post.text1}}
+    </li>
+
+    {% endfor %}
+</ul>
+
+<h3>
+    <p>    you can manage every thing throw admin panel here!
+    </p>
+    <a href="https://obscure-refuge-42443.herokuapp.com/admin">admin panel</a>
+</h3>
